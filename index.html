@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Abdullah | Software Developer</title>
+
+  <meta name="description" content="Portfolio of Abdullah - Software Developer specializing in web, mobile, and AI applications." />
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+
+  <!-- Background blobs -->
+  <div class="bg-blobs">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <a href="#" class="logo">
+        Abdullah<span class="gradient-text">.dev</span>
+      </a>
+
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contact" class="btn btn-outline">
+        Hire Me
+      </a>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container">
+
+        <div class="hero-content">
+          <span class="hero-tag">Available for new opportunities</span>
+
+          <h1>
+            Hi, I'm <span class="gradient-text">Abdullah</span>
+          </h1>
+
+          <p>
+            A passionate Software Developer building modern web and mobile apps with focus on AI-driven solutions and clean UI/UX.
+          </p>
+
+          <div class="hero-btns">
+            <a href="#projects" class="btn btn-primary">
+              View My Work
+              <i data-lucide="arrow-right"></i>
+            </a>
+
+            <a href="#contact" class="btn btn-outline">
+              Let's Talk
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container">
+
+        <div class="grid grid-2">
+
+          <div class="animate-on-scroll">
+            <div class="glass-card">
+              <img
+                src="/photo.jpg"
+                alt="Abdullah"
+                onerror="this.src='https://ui-avatars.com/api/?name=Abdullah&background=10b981&color=fff'"
+              />
+            </div>
+          </div>
+
+          <div class="animate-on-scroll">
+            <h2>
+              Designing the <span class="gradient-text">Future</span>
+            </h2>
+
+            <p>
+              I am a Computer Science student at INES-Ruhengeri in Rwanda.
+              I enjoy building real-world applications that solve problems.
+            </p>
+
+            <div class="grid grid-2">
+
+              <div class="glass-card">
+                <h3>Education</h3>
+                <p>INES-Ruhengeri - Computer Science</p>
+              </div>
+
+              <div class="glass-card">
+                <h3>Location</h3>
+                <p>Musanze, Rwanda</p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="container">
+
+        <h2>My <span class="gradient-text">Skills</span></h2>
+
+        <div class="grid grid-3">
+
+          <div class="glass-card animate-on-scroll">
+            <i data-lucide="layout"></i>
+            <i data-lucide="layout"></i>
+            <h3>Frontend</h3>
+            <p>React, TailwindCSS, JavaScript</p>
+          </div>
+
+          <div class="glass-card animate-on-scroll">
+            <i data-lucide="smartphone"></i>
+            <h3>Mobile</h3>
+            <p>React Native, Expo</p>
+          </div>
+
+          <div class="glass-card animate-on-scroll">
+            <i data-lucide="cpu"></i>
+            <h3>AI</h3>
+            <p>LLMs, APIs, Computer Vision</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="container">
+
+        <h2>Featured <span class="gradient-text">Projects</span></h2>
+
+        <div class="grid grid-2">
+
+          <div class="glass-card animate-on-scroll">
+            <i data-lucide="eye"></i>
+            <h3>VisionBridge</h3>
+            <p>AI accessibility app for blind users.</p>
+            <a href="#"><i data-lucide="github"></i> GitHub</a>
+          </div>
+
+          <div class="glass-card animate-on-scroll">
+            <i data-lucide="dollar-sign"></i>
+            <h3>GlobalPay</h3>
+            <p>Currency converter (SDG → RWF).</p>
+            <a href="#"><i data-lucide="external-link"></i> Live</a>
+          </div>
+
+          <div class="glass-card animate-on-scroll">
+            <i data-lucide="bot"></i>
+            <h3>EMO Eyes</h3>
+            <p>Robot eye animation system.</p>
+          </div>
+
+          <div class="glass-card animate-on-scroll">
+            <i data-lucide="shield-check"></i>
+            <h3>CyberGuard AI</h3>
+            <p>AI cybersecurity learning app.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container">
+
+        <h2>Contact <span class="gradient-text">Me</span></h2>
+
+        <div class="grid grid-2">
+
+          <div>
+            <p><i data-lucide="mail"></i> contact@abdullah.dev</p>
+            <p><i data-lucide="map-pin"></i> Musanze, Rwanda</p>
+            <p><i data-lucide="linkedin"></i> LinkedIn Profile</p>
+          </div>
+
+          <form class="contact-form">
+            <input type="text" placeholder="Name" required />
+            <input type="email" placeholder="Email" required />
+            <textarea placeholder="Message" required></textarea>
+
+            <button type="submit" class="btn btn-primary">
+              Send Message
+              <i data-lucide="send"></i>
+            </button>
+          </form>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+
+      <div class="social-links">
+        <a href="#"><i data-lucide="github"></i></a>
+        <a href="#"><i data-lucide="linkedin"></i></a>
+        <a href="#"><i data-lucide="twitter"></i></a>
+      </div>
+
+      <p>© 2026 Abdullah. All rights reserved.</p>
+
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script type="module" src="./main.js"></script>
+
+</body>
+</html>
