@@ -4,20 +4,30 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Abdullah | Software Developer</title>
-  <meta name="description" content="Portfolio and CV of Abdullah, a Software Developer specializing in modern web and mobile applications." />
+
+  <meta name="description" content="Portfolio of Abdullah - Software Developer specializing in web, mobile, and AI applications." />
+
   <link rel="stylesheet" href="./style.css" />
 </head>
+
 <body>
+
+  <!-- Background blobs -->
   <div class="bg-blobs">
     <div class="blob blob-1"></div>
     <div class="blob blob-2"></div>
     <div class="blob blob-3"></div>
   </div>
 
+  <!-- Header -->
   <header>
     <div class="container">
-      <a href="#" class="logo">Abdullah<span class="gradient-text">.dev</span></a>
+      <a href="#" class="logo">
+        Abdullah<span class="gradient-text">.dev</span>
+      </a>
+
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
@@ -26,247 +36,211 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <a href="#contact" class="btn btn-outline" style="padding: 0.6rem 1.2rem; font-size: 0.85rem;">Hire Me</a>
+
+      <a href="#contact" class="btn btn-outline">
+        Hire Me
+      </a>
     </div>
   </header>
 
+  <!-- MAIN -->
   <main>
-    <!-- Hero Section -->
+
+    <!-- HERO -->
     <section class="hero" id="home">
       <div class="container">
+
         <div class="hero-content">
           <span class="hero-tag">Available for new opportunities</span>
-          <h1>Hi, I'm <span class="gradient-text">Abdullah</span></h1>
-          <p>A passionate Software Developer crafting modern, high-performance web and mobile experiences. Currently focused on building AI-driven solutions and accessibility tools.</p>
+
+          <h1>
+            Hi, I'm <span class="gradient-text">Abdullah</span>
+          </h1>
+
+          <p>
+            A passionate Software Developer building modern web and mobile apps with focus on AI-driven solutions and clean UI/UX.
+          </p>
+
           <div class="hero-btns">
             <a href="#projects" class="btn btn-primary">
               View My Work
-              <i data-lucide="arrow-right" class="w-5 h-5"></i>
+              <i data-lucide="arrow-right"></i>
             </a>
-            <a href="#contact" class="btn btn-outline">Let's Talk</a>
+
+            <a href="#contact" class="btn btn-outline">
+              Let's Talk
+            </a>
           </div>
         </div>
+
       </div>
     </section>
 
-    <!-- About Section -->
+    <!-- ABOUT -->
     <section id="about">
       <div class="container">
-        <div class="grid grid-2" style="align-items: center;">
+
+        <div class="grid grid-2">
+
           <div class="animate-on-scroll">
-            <div class="glass-card" style="padding: 1.5rem; max-width: 400px; margin: 0 auto;">
-              <div style="aspect-ratio: 1; background: #1e293b; border-radius: 16px; overflow: hidden;">
-                <img src="/photo.jpg" alt="Abdullah" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.src='https://ui-avatars.com/api/?name=Abdullah&background=10b981&color=fff&size=512'">
-              </div>
+            <div class="glass-card">
+              <img
+                src="/photo.jpg"
+                alt="Abdullah"
+                onerror="this.src='https://ui-avatars.com/api/?name=Abdullah&background=10b981&color=fff'"
+              />
             </div>
           </div>
+
           <div class="animate-on-scroll">
-            <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem;">Designing the <span class="gradient-text">Future</span> of Web.</h2>
-            <p style="color: var(--text-secondary); margin-bottom: 2rem; font-size: 1.1rem;">
-              I am a student at the <strong>Institut d'Enseignement Supérieur de Ruhengeri (INES-Ruhengeri)</strong> in Rwanda. My passion lies in building functional and user-friendly applications that solve real-world problems.
+            <h2>
+              Designing the <span class="gradient-text">Future</span>
+            </h2>
+
+            <p>
+              I am a Computer Science student at INES-Ruhengeri in Rwanda.
+              I enjoy building real-world applications that solve problems.
             </p>
-            <div class="grid grid-2" style="gap: 1.5rem;">
-              <div class="glass-card" style="padding: 1.5rem;">
-                <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--primary-color);">Education</h3>
-                <p style="font-size: 0.9rem; color: var(--text-secondary);">Computer Science Student at INES-Ruhengeri</p>
+
+            <div class="grid grid-2">
+
+              <div class="glass-card">
+                <h3>Education</h3>
+                <p>INES-Ruhengeri - Computer Science</p>
               </div>
-              <div class="glass-card" style="padding: 1.5rem;">
-                <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--secondary-color);">Location</h3>
-                <p style="font-size: 0.9rem; color: var(--text-secondary);">Musanze, Rwanda</p>
+
+              <div class="glass-card">
+                <h3>Location</h3>
+                <p>Musanze, Rwanda</p>
               </div>
+
             </div>
           </div>
+
         </div>
+
       </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" style="background: rgba(15, 23, 42, 0.3);">
+    <!-- SKILLS -->
+    <section id="skills">
       <div class="container">
-        <div class="section-header animate-on-scroll">
-          <h2>My <span class="gradient-text">Tech Stack</span></h2>
-          <p>Constantly evolving with the latest technologies to build better products.</p>
-        </div>
+
+        <h2>My <span class="gradient-text">Skills</span></h2>
+
         <div class="grid grid-3">
-          <div class="glass-card skill-card animate-on-scroll">
-            <div class="skill-icon"><i data-lucide="layout" class="w-6 h-6"></i></div>
-            <h3>Frontend Development</h3>
-            <p style="font-size: 0.9rem; color: var(--text-secondary);">Expertise in React, TailwindCSS, and modern Vanilla JS/CSS.</p>
+
+          <div class="glass-card animate-on-scroll">
+            <i data-lucide="layout"></i>
+            <h3>Frontend</h3>
+            <p>React, TailwindCSS, JavaScript</p>
           </div>
-          <div class="glass-card skill-card animate-on-scroll">
-            <div class="skill-icon" style="color: var(--secondary-color); background: rgba(6, 182, 212, 0.1);"><i data-lucide="smartphone" class="w-6 h-6"></i></div>
-            <h3>Mobile Apps</h3>
-            <p style="font-size: 0.9rem; color: var(--text-secondary);">Building cross-platform mobile apps with React Native and Expo.</p>
+
+          <div class="glass-card animate-on-scroll">
+            <i data-lucide="smartphone"></i>
+            <h3>Mobile</h3>
+            <p>React Native, Expo</p>
           </div>
-          <div class="glass-card skill-card animate-on-scroll">
-            <div class="skill-icon" style="color: var(--accent-color); background: rgba(139, 92, 246, 0.1);"><i data-lucide="cpu" class="w-6 h-6"></i></div>
-            <h3>AI Integration</h3>
-            <p style="font-size: 0.9rem; color: var(--text-secondary);">Integrating Large Language Models and computer vision into applications.</p>
+
+          <div class="glass-card animate-on-scroll">
+            <i data-lucide="cpu"></i>
+            <h3>AI</h3>
+            <p>LLMs, APIs, Computer Vision</p>
           </div>
+
         </div>
+
       </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- PROJECTS -->
     <section id="projects">
       <div class="container">
-        <div class="section-header animate-on-scroll">
-          <h2>Featured <span class="gradient-text">Projects</span></h2>
-          <p>A selection of my recent work across web and mobile platforms.</p>
-        </div>
+
+        <h2>Featured <span class="gradient-text">Projects</span></h2>
+
         <div class="grid grid-2">
-          <!-- Project 1 -->
-          <div class="glass-card project-card animate-on-scroll">
-            <div class="project-img">
-              <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: linear-gradient(45deg, #0f172a, #1e293b);">
-                <i data-lucide="eye" class="w-12 h-12 text-emerald-500 opacity-50"></i>
-              </div>
-            </div>
-            <div class="project-info">
-              <div class="project-tags">
-                <span class="project-tag">React Native</span>
-                <span class="project-tag">WebRTC</span>
-                <span class="project-tag">AI</span>
-              </div>
-              <h3>VisionBridge</h3>
-              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 0.5rem;">An accessibility application helping blind users navigate the world using real-time video streaming and AI analysis.</p>
-              <div class="project-links">
-                <a href="#" class="project-link"><i data-lucide="github" class="w-4 h-4"></i> GitHub</a>
-                <a href="#" class="project-link"><i data-lucide="external-link" class="w-4 h-4"></i> Live Demo</a>
-              </div>
-            </div>
+
+          <div class="glass-card animate-on-scroll">
+            <i data-lucide="eye"></i>
+            <h3>VisionBridge</h3>
+            <p>AI accessibility app for blind users.</p>
+            <a href="#"><i data-lucide="github"></i> GitHub</a>
           </div>
 
-          <!-- Project 2 -->
-          <div class="glass-card project-card animate-on-scroll">
-            <div class="project-img">
-              <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: linear-gradient(45deg, #06b6d4, #0891b2);">
-                <i data-lucide="dollar-sign" class="w-12 h-12 text-white opacity-50"></i>
-              </div>
-            </div>
-            <div class="project-info">
-              <div class="project-tags">
-                <span class="project-tag">TailwindCSS</span>
-                <span class="project-tag">JavaScript</span>
-                <span class="project-tag">PHP</span>
-              </div>
-              <h3>GlobalPay</h3>
-              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 0.5rem;">A currency conversion platform specifically designed for SDG to RWF transactions, simplifying international transfers.</p>
-              <div class="project-links">
-                <a href="#" class="project-link"><i data-lucide="github" class="w-4 h-4"></i> GitHub</a>
-                <a href="#" class="project-link"><i data-lucide="external-link" class="w-4 h-4"></i> Live Demo</a>
-              </div>
-            </div>
+          <div class="glass-card animate-on-scroll">
+            <i data-lucide="dollar-sign"></i>
+            <h3>GlobalPay</h3>
+            <p>Currency converter (SDG → RWF).</p>
+            <a href="#"><i data-lucide="external-link"></i> Live</a>
           </div>
 
-          <!-- Project 3 -->
-          <div class="glass-card project-card animate-on-scroll">
-            <div class="project-img">
-              <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: linear-gradient(45deg, #8b5cf6, #7c3aed);">
-                <i data-lucide="bot" class="w-12 h-12 text-white opacity-50"></i>
-              </div>
-            </div>
-            <div class="project-info">
-              <div class="project-tags">
-                <span class="project-tag">React Native</span>
-                <span class="project-tag">Reanimated</span>
-              </div>
-              <h3>EMO Robot Eyes</h3>
-              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 0.5rem;">Dynamic, code-driven eye system for the EMO robot with fluid transitions and gaze tracking.</p>
-              <div class="project-links">
-                <a href="#" class="project-link"><i data-lucide="github" class="w-4 h-4"></i> GitHub</a>
-              </div>
-            </div>
+          <div class="glass-card animate-on-scroll">
+            <i data-lucide="bot"></i>
+            <h3>EMO Eyes</h3>
+            <p>Robot eye animation system.</p>
           </div>
 
-          <!-- Project 4 -->
-          <div class="glass-card project-card animate-on-scroll">
-            <div class="project-img">
-              <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: linear-gradient(45deg, #10b981, #059669);">
-                <i data-lucide="shield-check" class="w-12 h-12 text-white opacity-50"></i>
-              </div>
-            </div>
-            <div class="project-info">
-              <div class="project-tags">
-                <span class="project-tag">AI</span>
-                <span class="project-tag">Gemini API</span>
-                <span class="project-tag">React Native</span>
-              </div>
-              <h3>CyberGuard AI</h3>
-              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 0.5rem;">A cybersecurity mentor application powered by AI to help users learn and protect themselves online.</p>
-              <div class="project-links">
-                <a href="#" class="project-link"><i data-lucide="github" class="w-4 h-4"></i> GitHub</a>
-              </div>
-            </div>
+          <div class="glass-card animate-on-scroll">
+            <i data-lucide="shield-check"></i>
+            <h3>CyberGuard AI</h3>
+            <p>AI cybersecurity learning app.</p>
           </div>
+
         </div>
+
       </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- CONTACT -->
     <section id="contact">
       <div class="container">
-        <div class="section-header animate-on-scroll">
-          <h2>Get in <span class="gradient-text">Touch</span></h2>
-          <p>Interested in working together? Drop me a message!</p>
-        </div>
-        <div class="contact-grid">
-          <div class="contact-info animate-on-scroll">
-            <div class="contact-item">
-              <div class="contact-icon"><i data-lucide="mail" class="w-6 h-6"></i></div>
-              <div class="contact-text">
-                <h4>Email</h4>
-                <p>contact@abdullah.dev</p>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="contact-icon" style="color: var(--secondary-color); border-color: rgba(6, 182, 212, 0.2);"><i data-lucide="map-pin" class="w-6 h-6"></i></div>
-              <div class="contact-text">
-                <h4>Location</h4>
-                <p>INES-Ruhengeri, Musanze, Rwanda</p>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="contact-icon" style="color: var(--accent-color); border-color: rgba(139, 92, 246, 0.2);"><i data-lucide="linkedin" class="w-6 h-6"></i></div>
-              <div class="contact-text">
-                <h4>LinkedIn</h4>
-                <p>linkedin.com/in/abdullah</p>
-              </div>
-            </div>
+
+        <h2>Contact <span class="gradient-text">Me</span></h2>
+
+        <div class="grid grid-2">
+
+          <div>
+            <p><i data-lucide="mail"></i> contact@abdullah.dev</p>
+            <p><i data-lucide="map-pin"></i> Musanze, Rwanda</p>
+            <p><i data-lucide="linkedin"></i> LinkedIn Profile</p>
           </div>
-          <form class="contact-form animate-on-scroll">
-            <div class="grid grid-2">
-              <div class="form-group">
-                <label style="font-size: 0.8rem; font-weight: 600; color: var(--text-secondary);">NAME</label>
-                <input type="text" placeholder="John Doe">
-              </div>
-              <div class="form-group">
-                <label style="font-size: 0.8rem; font-weight: 600; color: var(--text-secondary);">EMAIL</label>
-                <input type="email" placeholder="john@example.com">
-              </div>
-            </div>
-            <div class="form-group">
-              <label style="font-size: 0.8rem; font-weight: 600; color: var(--text-secondary);">MESSAGE</label>
-              <textarea rows="5" placeholder="How can I help you?"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Send Message <i data-lucide="send" class="w-5 h-5"></i></button>
+
+          <form class="contact-form">
+            <input type="text" placeholder="Name" required />
+            <input type="email" placeholder="Email" required />
+            <textarea placeholder="Message" required></textarea>
+
+            <button type="submit" class="btn btn-primary">
+              Send Message
+              <i data-lucide="send"></i>
+            </button>
           </form>
+
         </div>
+
       </div>
     </section>
+
   </main>
 
+  <!-- FOOTER -->
   <footer>
     <div class="container">
+
       <div class="social-links">
-        <a href="#" class="social-link"><i data-lucide="github" class="w-6 h-6"></i></a>
-        <a href="#" class="social-link"><i data-lucide="linkedin" class="w-6 h-6"></i></a>
-        <a href="#" class="social-link"><i data-lucide="twitter" class="w-6 h-6"></i></a>
+        <a href="#"><i data-lucide="github"></i></a>
+        <a href="#"><i data-lucide="linkedin"></i></a>
+        <a href="#"><i data-lucide="twitter"></i></a>
       </div>
-      <p style="font-size: 0.85rem; color: var(--text-secondary);">© 2026 Abdullah. Built with passion in Musanze, Rwanda.</p>
+
+      <p>© 2026 Abdullah. All rights reserved.</p>
+
     </div>
   </footer>
 
+  <!-- JS -->
   <script type="module" src="./main.js"></script>
+
 </body>
 </html>
