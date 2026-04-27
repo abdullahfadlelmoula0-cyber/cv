@@ -12,11 +12,6 @@
     "vite": "^8.0.10"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "lucide": "^1.11.0",
-    "lucide-react": "^1.11.0"
-=======
     "lucide": "^1.11.0"
->>>>>>> 35a3dcade84d379ca09a6b725a484c5cf4c30dcc
   }
 }
